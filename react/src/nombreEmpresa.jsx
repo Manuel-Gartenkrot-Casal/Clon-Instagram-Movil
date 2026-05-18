@@ -1,8 +1,10 @@
+import './nombreEmpresa.css';
+
 function NombreEmpresa (props){
     return(
     <>
         <div>
-            <h1>{props.nombre}</h1>
+            <h1 >{props.nombre}</h1>
         </div>
         </>
     )
