@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import api from './services/api';
 import PublicacionDetail from './publicacionDetail.jsx';
-
+import './publicacion.css';
 function Publicacion() {
     const [gatos, setGatos] = useState([]);
     const [gatoSeleccionado, setGatoSeleccionado] = useState(null);
@@ -22,34 +22,45 @@ function Publicacion() {
         obtenerGatos();
     }, []);
 
+    const handleBack = () => {
+        setGatoSeleccionado(null);
+    };
+
     if (gatoSeleccionado) {
         return (
-            <PublicacionDetail
-                imagen={gatoSeleccionado.url}
-                breeds={gatoSeleccionado.breeds}
-                id={gatoSeleccionado.id}
+            <>          <button className="volver" onClick={handleBack}> Volver</button>
 
-            />
+                <PublicacionDetail
+                    imagen={gatoSeleccionado.url}
+                    breeds={gatoSeleccionado.breeds}
+                    id={gatoSeleccionado.id}
+
+                /></>
         );
     }
 
-    return (
-        <div className="galeria">
-            {gatos.map((gato) => (
-                <div key={gato.id}>
-                    <img
-                        src={gato.url}
-                        alt="Gatito"
-                        width="200"
-                    />
+  return (
+    <>
+    <h1>Trending</h1>
 
-                    <button onClick={() => setGatoSeleccionado(gato)}>
-                        Ver detalle
-                    </button>
-                </div>
-            ))}
-        </div>
-    );
+    <div className="galeria">
+        {gatos.map((gato) => (
+            <div className="card" key={gato.id}>
+                <img
+                    className="foto"
+                    src={gato.url}
+                    alt="Gatito"
+                />
+                <h3> {gato.breeds[0].name}</h3>
+                <button onClick={() => setGatoSeleccionado(gato)} >
+                    Ver detalle
+                </button>
+            </div>
+        ))}
+
+    </div>
+    </>
+);
 }
 
 export default Publicacion;

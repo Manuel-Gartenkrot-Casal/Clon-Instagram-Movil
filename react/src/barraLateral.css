@@ -1,0 +1,8 @@
+.BarraLateral {
+    width: 452px;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    padding-top: 60px;
+}
