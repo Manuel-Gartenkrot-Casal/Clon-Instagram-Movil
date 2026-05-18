@@ -1,0 +1,6 @@
+img{
+    width: 130px;
+    height: 130px;
+    border-radius: 250px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
