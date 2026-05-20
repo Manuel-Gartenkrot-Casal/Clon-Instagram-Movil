@@ -45,7 +45,7 @@ function Stories() {
 
   return (
     <>
-      <div>
+      <div className="stories">
         {stories.map((story) => (
           <Story key={story.id}
             username={story.user} />,
