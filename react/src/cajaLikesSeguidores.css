@@ -1,0 +1,20 @@
+.cajaLikesSeguidores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.followers {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
