@@ -12,7 +12,7 @@ function OpcionesBarraLateral() {
 
   return (
     <>
-      <div>
+      <div class = "opcionesBarraLateral">
         {opciones.map((opcion) => (
           <div key={opcion.id}>
             <span>{opcion.emoji}</span>

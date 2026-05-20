@@ -10,7 +10,7 @@ function Publicacion() {
         async function obtenerGatos() {
             try {
                 const response = await api.get(
-                    'images/search?limit=6&has_breeds=1'
+                    'images/search?limit=12&has_breeds=1'
                 );
 
                 setGatos(response.data);
@@ -51,10 +51,12 @@ function Publicacion() {
                     src={gato.url}
                     alt="Gatito"
                 />
-                <h3> {gato.breeds[0].name}</h3>
-                <button onClick={() => setGatoSeleccionado(gato)} >
-                    Ver detalle
-                </button>
+                <div class = "footerPost">
+                    <img src="./Perfil.webp" alt="Perfil rinoceronte" />
+                    <button onClick={() => setGatoSeleccionado(gato)} >
+                        Ver detalle
+                    </button>
+                </div>
             </div>
         ))}
 
