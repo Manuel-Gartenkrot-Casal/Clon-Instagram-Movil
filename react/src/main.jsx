@@ -5,12 +5,14 @@ import App from './App.jsx'
 import Publicaciones from './publicaciones.jsx'
 import BarraLateral from './barraLateral.jsx'
 import Header from './Header.jsx';
+import Stories from "./stories.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Header/>
-    <BarraLateral/>
+    <Header />
+    <Stories />
+    <BarraLateral />
     <Publicaciones />
   </StrictMode>,
 )
