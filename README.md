@@ -1,7 +1,8 @@
 # Organización del proyecto
 
+```plaintext
 react/
-├── public/                  ← Imágenes utilizadas en la página
+├── public/
 │   ├── camara.png
 │   ├── config.png
 │   ├── newPost.png
@@ -14,8 +15,8 @@ react/
 │   ├── story6.png
 │   └── story7.png
 
-├── src/                     ← Componentes y lógica
-│   ├── services/            ← Llamada a la API
+├── src/
+│   ├── services/
 │   │   └── api.js
 │   │
 │   ├── App.css
@@ -52,3 +53,4 @@ react/
 │   ├── story.jsx
 │   ├── tituloSeccion.css
 │   └── tituloSeccion.jsx
+```
