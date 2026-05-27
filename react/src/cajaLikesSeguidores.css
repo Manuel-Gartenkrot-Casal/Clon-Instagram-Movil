@@ -4,22 +4,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     width: 40%;
 }
 
-.followers {
+.followers, .likes {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    gap: 10px;
     background-color: #282745;
-    padding: 5%;
-    border-radius: 5px;
-}
-
-.likes {
-    display: flex;
-    align-items: center;
-    background-color: #282745;
-    padding: 5%;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
 }

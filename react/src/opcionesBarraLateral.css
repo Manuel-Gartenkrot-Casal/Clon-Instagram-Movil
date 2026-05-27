@@ -1,12 +1,31 @@
-.opcionesBarraLateral{
+.opcionesBarraLateral {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.opcionesBarraLateral div{
-    padding: 5%;
+
+.opcionesBarraLateral div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 32px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.opcionesBarraLateral div:hover {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1B1D43;
+    border-left: 5px solid #e21955;
 }
 .opcionesBarraLateral div :hover{
-    background-color: #1B1D43;
+    border: none;
+}
+span{
+    font-size: 1.5rem;
 }
