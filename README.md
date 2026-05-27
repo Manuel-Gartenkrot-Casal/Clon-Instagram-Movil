@@ -2,7 +2,7 @@
 
 ```plaintext
 react/
-├── public/       ← imagenes utilizadas
+├── public/        ← imagenes utilizadas
 │   ├── camara.png
 │   ├── config.png
 │   ├── newPost.png
@@ -14,43 +14,27 @@ react/
 │   ├── story5.png
 │   ├── story6.png
 │   └── story7.png
-
-├── src/
-│   ├── services/  ← llamada a api
-│   │   └── api.js
-│   │
-│   ├── App.css
-│   ├── App.jsx
-│   ├── barraLateral.css
-│   ├── barraLateral.jsx
-│   ├── cajaLikesSeguidores.css
-│   ├── cajaLikesSeguidores.jsx
-│   ├── errorMessage.css
-│   ├── errorMensaje.jsx
-│   ├── fotoPerfil.jsx
-│   ├── Header.css
-│   ├── Header.jsx
-│   ├── headerImagenes.css
-│   ├── headerImagenes.jsx
-│   ├── index.css
-│   ├── loader.css
-│   ├── loader.jsx
-│   ├── main.jsx
-│   ├── nombreEmpresa.css
-│   ├── nombreEmpresa.jsx
-│   ├── opcionesBarraLateral.css
-│   ├── opcionesBarraLateral.jsx
-│   ├── publicacion.css
-│   ├── publicacion.jsx
-│   ├── publicacionDetail.jsx
-│   ├── publicaciones.css
-│   ├── publicaciones.jsx
-│   ├── searchBar.css
-│   ├── searchBar.jsx
-│   ├── stories.css
-│   ├── stories.jsx
-│   ├── story.css
-│   ├── story.jsx
-│   ├── tituloSeccion.css
-│   └── tituloSeccion.jsx
+│
+└── src/
+    ├── services/  ← llamada a api
+    │   └── api.js
+    │
+    ├── App.jsx
+    ├── barraLateral.jsx
+    ├── cajaLikesSeguidores.jsx
+    ├── errorMensaje.jsx
+    ├── fotoPerfil.jsx
+    ├── Header.jsx
+    ├── headerImagenes.jsx
+    ├── loader.jsx
+    ├── main.jsx
+    ├── nombreEmpresa.jsx
+    ├── opcionesBarraLateral.jsx
+    ├── publicacion.jsx
+    ├── publicacionDetail.jsx
+    ├── publicaciones.jsx
+    ├── searchBar.jsx
+    ├── stories.jsx
+    ├── story.jsx
+    └── tituloSeccion.jsx
 ```
