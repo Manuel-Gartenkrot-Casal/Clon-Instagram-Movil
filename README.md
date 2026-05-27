@@ -20,10 +20,10 @@ react/
     │   └── api.js
     │
     ├── App.jsx
-    ├── barraLateral.jsx    ← Contiene la barra lateral mostrando el perfil del usuario, estadisticas (llamando al componente cajaLikesSeguidores) y las opciones de navegacion que hay (llamando a OpcionesBarraLateral)
-    ├── cajaLikesSeguidores.jsx  ← Recibe por props la cantidad de likes y seguidores del usuario cargado y los muestra en pantalla junto a un emoji
-    ├── fotoPerfil.jsx  ← Recibe por props una imagen y la muestra estilandola con el circulo de colores característico de instagram
-    ├── Header.jsx  ← Muestra la parte superior de la página, le manda al componente NombreEmpresa el nombre de la empresa de la actual página, luego ejecuta el componente SearchBar y por último muestra todos los íconos del header
+    ├── barraLateral.jsx  
+    ├── cajaLikesSeguidores.jsx  
+    ├── fotoPerfil.jsx 
+    ├── Header.jsx  
     ├── headerImagenes.jsx  ← Recibe mediante props las imagenes del header que se tienen que mostrar y las estila mandandolas a la parte superior derecha 
     ├── loader.jsx  ← Cuando se abre la pagina se muestra el loader mientras cargan las imagenes
     ├── main.jsx ← Punto de entrada a la página, llama a los componentes: app, header, stories, BarraLateral y Publicaciones
@@ -36,8 +36,14 @@ react/
     ├── stories.jsx ← Tiene en un useState 7 stories hardcodeadas, las cuales con un map son recorridas y le manda al componente story el id, username e imagen de cada story
     └── story.jsx ← Recibe mediante props la información de cada story y la imagen se la manda a Foto perfil para que la estile y ademas muestra el username
 ```
-
-
+#barraLateral
+Contiene la barra lateral mostrando el perfil del usuario, estadisticas (llamando al componente cajaLikesSeguidores) y las opciones de navegacion que hay (llamando a OpcionesBarraLateral)
+#cajaLikeSeguidores
+Recibe por props la cantidad de likes y seguidores del usuario cargado y los muestra en pantalla junto a un emoji
+#fotoPerfil
+Recibe por props una imagen y la muestra estilandola con el circulo de colores característico de instagram
+#header
+Muestra la parte superior de la página, le manda al componente NombreEmpresa el nombre de la empresa de la actual página, luego ejecuta el componente SearchBar y por último muestra todos los íconos del header
 
 # Diseño figma
 https://www.figma.com/es-es/comunidad/file/1004033523744290376/instagram-modern-web-design
