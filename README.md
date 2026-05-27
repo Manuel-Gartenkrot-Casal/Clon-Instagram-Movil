@@ -2,7 +2,7 @@
 
 ```plaintext
 react/
-├── public/
+├── public/       ← imagenes utilizadas
 │   ├── camara.png
 │   ├── config.png
 │   ├── newPost.png
@@ -16,7 +16,7 @@ react/
 │   └── story7.png
 
 ├── src/
-│   ├── services/
+│   ├── services/  ← llamada a api
 │   │   └── api.js
 │   │
 │   ├── App.css
