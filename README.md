@@ -36,13 +36,13 @@ react/
     ├── stories.jsx ← Tiene en un useState 7 stories hardcodeadas, las cuales con un map son recorridas y le manda al componente story el id, username e imagen de cada story
     └── story.jsx ← Recibe mediante props la información de cada story y la imagen se la manda a Foto perfil para que la estile y ademas muestra el username
 ```
-#barraLateral
+# barraLateral
 Contiene la barra lateral mostrando el perfil del usuario, estadisticas (llamando al componente cajaLikesSeguidores) y las opciones de navegacion que hay (llamando a OpcionesBarraLateral)
-#cajaLikeSeguidores
+# cajaLikeSeguidores
 Recibe por props la cantidad de likes y seguidores del usuario cargado y los muestra en pantalla junto a un emoji
-#fotoPerfil
+# fotoPerfil
 Recibe por props una imagen y la muestra estilandola con el circulo de colores característico de instagram
-#header
+# header
 Muestra la parte superior de la página, le manda al componente NombreEmpresa el nombre de la empresa de la actual página, luego ejecuta el componente SearchBar y por último muestra todos los íconos del header
 
 # Diseño figma
