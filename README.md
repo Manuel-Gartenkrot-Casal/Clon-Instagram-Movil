@@ -1,4 +1,4 @@
-# Organización del proyecto y componentes
+# Organización del proyecto
 
 react/
 ├── public/                  ← Imágenes utilizadas en la página
@@ -20,54 +20,35 @@ react/
 │   │
 │   ├── App.css
 │   ├── App.jsx
-│   │
 │   ├── barraLateral.css
 │   ├── barraLateral.jsx
-│   │
 │   ├── cajaLikesSeguidores.css
 │   ├── cajaLikesSeguidores.jsx
-│   │
 │   ├── errorMessage.css
 │   ├── errorMensaje.jsx
-│   │
 │   ├── fotoPerfil.jsx
-│   │
 │   ├── Header.css
 │   ├── Header.jsx
-│   │
 │   ├── headerImagenes.css
 │   ├── headerImagenes.jsx
-│   │
 │   ├── index.css
-│   │
 │   ├── loader.css
 │   ├── loader.jsx
-│   │
 │   ├── main.jsx
-│   │
 │   ├── nombreEmpresa.css
 │   ├── nombreEmpresa.jsx
-│   │
 │   ├── opcionesBarraLateral.css
 │   ├── opcionesBarraLateral.jsx
-│   │
 │   ├── publicacion.css
 │   ├── publicacion.jsx
-│   │
 │   ├── publicacionDetail.jsx
-│   │
 │   ├── publicaciones.css
 │   ├── publicaciones.jsx
-│   │
 │   ├── searchBar.css
 │   ├── searchBar.jsx
-│   │
 │   ├── stories.css
 │   ├── stories.jsx
-│   │
 │   ├── story.css
 │   ├── story.jsx
-│   │
 │   ├── tituloSeccion.css
 │   └── tituloSeccion.jsx
-
