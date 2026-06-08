@@ -72,6 +72,7 @@ https://www.figma.com/es-es/comunidad/file/1004033523744290376/instagram-modern-
 * **Nombre completo**: El nombre completo
 * **Nombre de usuario**: El username de instagram
 * **Seguidores**: Un contador  que simula la cantidad de seguidores del usuario
+* 
 * **Me gusta**: Un contador que simula los likes obtenidos
 
 # Estados utilizados para la vista individual
